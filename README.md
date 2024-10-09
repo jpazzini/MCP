@@ -3,8 +3,24 @@
 
 #### CUDA-C
 
+- Hello world in CUDA
+- Scalar sum 
+- Vector sum
+- Elementwise matrix manipulation
+- Matrix multiplication
+- Stencil
+- Reduction
+
 #### Numba
+
+- `jit`
+- `vectorize`
+- `guvectorize`
 
 #### CUDA in Python with Numba and CuPy
 
-All code has been tested on the NVIDIA Jetson Nano 2GB Dev. Kit
+- `(gu)vectorize` w/ CUDA backend
+- `cuda.jit`
+- `cupy`
+
+All code has been tested targeting the NVIDIA Jetson Nano 2GB Dev. Kit
