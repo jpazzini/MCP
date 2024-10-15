@@ -34,8 +34,7 @@ int main() {
     
     // Define a 1D smoothing kernel (e.g., a simple averaging kernel or Gaussian-like kernel)
     int kernel_size = 2 * KERNEL_RADIUS + 1;
-    float h_kernel[kernel_size] = {0.1, 0.15, 0.4, 0.15, 0.1};  // Example: Gaussian-like kernel
-
+    float h_kernel[kernel_size] = {0.004, 0.054, 0.242, 0.399, 0.242, 0.054, 0.004};  // Example: Gaussian-like kernel
     // Device memory allocation
 
     // Copy input data and kernel from host to device
