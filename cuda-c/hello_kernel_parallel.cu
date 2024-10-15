@@ -21,7 +21,8 @@ int main(int argc, char **argv){
     printf("Back on the CPU\n");
     
     // Destroy and clean up all resources of the current process on the device
-    cudaDeviceReset();
+    cudaDeviceSynchronize();
+    // cudaDeviceReset();
     
     // Return 0 to indicate successful execution
     return 0;
