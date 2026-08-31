@@ -1,5 +1,5 @@
 ## Material for the Course: _Modern Computing for Physics_ 
-### M.Sc. in Physics of Data — University of Padova — Academic Year 2025-2026
+### M.Sc. in Physics of Data — University of Padova — Academic Year 2026-2027
 
 #### CUDA-C
 
